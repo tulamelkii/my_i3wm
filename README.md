@@ -64,6 +64,8 @@ exec dbus-launch  startxfce4
 
 exec --no-startup-id picom -b
 
+exec --no-startup-id nitrogen --set-auto /home/localadm/Downloads/ducati-superleggera-v4-diablo-supercorsa-sp-sports-bikes-3840x2160-6150.jpg --head=0 
+
 ############################################################################ logon /etc/profile######################
 
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]] && [[ $(whoami) = 'your_username' ]]; then
