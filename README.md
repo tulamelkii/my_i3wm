@@ -63,8 +63,13 @@ exec --no-startup-id blueman-applet
 exec dbus-launch  startxfce4
 
 exec --no-startup-id picom -b
+#########################################Picom ################################
 
-exec --no-startup-id nitrogen --set-auto /home/localadm/Downloads/ducati-superleggera-v4-diablo-supercorsa-sp-sports-bikes-3840x2160-6150.jpg --head=0 
+#inactive-opacity = 1;
+#active-opacity = 1;
+
+opacity-rule = ["75:class_g = 'Xfce4-terminal'"];
+
 
 ############################################################################ logon /etc/profile######################
 
