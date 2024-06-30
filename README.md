@@ -63,6 +63,11 @@ exec --no-startup-id blueman-applet
 exec dbus-launch  startxfce4
 
 exec --no-startup-id picom -b
+
+bindsym $mod+minus move scratchpad
+
+bindsym $mod+plus scratchpad show
+
 #########################################Picom ################################
 
 #inactive-opacity = 1;
